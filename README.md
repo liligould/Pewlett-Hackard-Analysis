@@ -10,7 +10,14 @@ Based on each table created we found the following information
 <img width="754" alt="Screen Shot 2021-05-09 at 10 31 20 PM" src="https://user-images.githubusercontent.com/80358062/117602479-6e213900-b116-11eb-8b2a-a92643f8aa4e.png">
 
 * Based on the unique titles table we were able to collect the most recent titles of those eligible for retirement.
+<img width="562" alt="Screen Shot 2021-05-09 at 10 34 51 PM" src="https://user-images.githubusercontent.com/80358062/117602666-de2fbf00-b116-11eb-98fc-cbd389d5a95e.png">
+
 * Based on the retiring titles table we could determine which positions will need to be filled. 
+<img width="265" alt="Screen Shot 2021-05-09 at 10 36 19 PM" src="https://user-images.githubusercontent.com/80358062/117602734-04edf580-b117-11eb-85f4-cb89a7291f65.png">
 
+* Based on the mentorship eligibility table we were able to gather the senior employees that can mentor incoming employees.
+<img width="835" alt="Screen Shot 2021-05-09 at 10 37 36 PM" src="https://user-images.githubusercontent.com/80358062/117602811-31097680-b117-11eb-83ad-580e1b79c11c.png">
 
-Based on the mentorship eligibility table we were able to gather the senior employees that can mentor incoming employees.
+## Conclusion
+In conclusion, it shows that 63 percent (57,668/90,398 = 63.7%) of the workers at Pewlett_Hackard will be retirement or mentor ready in the next 5 to 10 years. It is hard to tell if there will be enough workers entering the workforce to fill these positions but it is good that P-H get a jump so they can start recruiting and mentoring working professionals sooner rather than later. 
+
