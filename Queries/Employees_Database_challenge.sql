@@ -10,7 +10,7 @@ ORDER BY emp_no ASC;
 SELECT * FROM recent_titles
 
 -- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON rt.emp_no,
+SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name, rt.last_name, rt.title
 
 INTO recent_titles
@@ -23,3 +23,23 @@ FROM recent_titles AS recent
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
+-- Deliverable 2
+SELECT * FROM dept_emp;
+
+SELECT DISTINCT ON(e.emp_no)e.emp_no,
+e.first_name,
+e.last_name,
+e.birth_date,
+de.from_date,
+de.to_date,
+t.title
+--DISTINCT ON(emp_no)
+--INTO mentor_eligibility
+FROM employees AS e
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS t
+ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
+ORDER BY emp_no;
